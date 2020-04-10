@@ -1,0 +1,27 @@
+body{
+    background: #A901DB;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 40px 200px 40px 200px;
+    
+}
+
+
+header{
+    margin-top: 70px;
+}
+
+h1{
+    color:rgb(255, 206, 251);
+    font-weight: 800;
+}
+
+h2{
+    color:rgb(255, 206, 251);
+    font-weight: 700;
+}
+
+img{
+    margin-bottom: 20px;
+}

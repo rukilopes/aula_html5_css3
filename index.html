@@ -3,20 +3,33 @@
     <head>
         <meta charset="utf-8"> <!--padrão brasileiro, aceitando acentos-->
         <title> Minha página </title> <!--nome da aba-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"> <!--relaciona index com styles.css-->
     </head>
 
     <body> <!--Conteúdo da página-->
+        <h1><p>Teste</p></h1>
 
         <nav><!--MENU-->
             <p>Minha página</p>
-            <url>
-                <li><a href="#SERVIÇOS">SERVIÇOS</a></li> 
+            <ul type="square"> <!--Ao invés do disco preto, usar quadrado preto-->
+                <li>
+                    <a href="#serviços">SERVIÇOS</a>
                     <!--Item da lista como link, href para redirecionar a sessão Serviços-->
-                <li>CLIENTES</li>
-                <li>PARCEIROS</li>
-                <li>TIME</li>
-                <li>CONTATO</li>
-            </url>
+                </li> 
+                    
+                <li>
+                    <a href="#clientes">CLIENTES</a>
+                </li>
+                <li>
+                    <a href="#parceiros">PARCEIROS</a>
+                </li>
+                <li>
+                    <a href="#time">TIME</a>
+                </li>
+                <li>
+                    <a href="#contato">CONTATO</a>
+                </li>
+            </ul>
         </nav>
 
         <p>Minha primeira página</p> <!--p de parágrafo-->
@@ -26,9 +39,17 @@
             <p>Oferecemos o desenvolvimento dos melhores sites e apps para sua empresa</p>
         </header>
 
-        <section id = "SERVIÇOS">
+        <section id = "serviços">
             <h2>SERVIÇOS</h2>
-            <p>Oferecemos os melhores serviços em desenvolvimento de sites e aplicativos</p>
+            <p>
+                Oferecemos os melhores serviços em desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em desenvolvimento de sites e aplicativos
+            </p>
 
             <div> <!--Divisão para as imagens ficarem uma abaixo da outra, sem ela ficam lado a lado-->
                 <img src="img/Site.jpg" width="300px">
@@ -40,7 +61,7 @@
             
         </section>
 
-        <section id = "CLIENTES">
+        <section id = "clientes">
             <h2>CLIENTES</h2>
             <p>Nossos clientes ficaram muito satisfeitos com os nossos serviços</p>
 
@@ -53,6 +74,55 @@
             </div>
         </section>
 
+        <section id = "parceiros">
+            <h2>PARCEIROS</h2>
+            <p>Nossos parceiros nos ajudam a entregas as melhores soluções para nossos clientes</p>
+
+            <div> 
+                <a href="https://digitalinnovation.one/" target="_blank">
+                    <img src="img/dio.png" width="300px">
+                </a>
+            </div>
+
+            <div> 
+                <a href="https://www.linkedin.com/company/globallabs/?originalSubdomain=br">
+                    <img src="img/global-labs.jpg" width="200px">
+                </a>
+            </div>
+        </section>
+
+        <section id = "time">
+            <h2>TIME</h2>
+            <p>
+                Nosso time trabalha com muita qualidade e empenho 
+                para entregar o melhor produto para nossos clientes
+            </p>
+
+            <div> 
+                <img src="img/Time.jpg" width="300px">
+            </div>
+
+            <div> 
+                <img src="img/Time2.jpg" width="300px">
+            </div>
+        </section>
+
+        <section id = "contato">
+            <h2>CONTATO</h2>
+            <p>Entre em contato com nossa equipe</p>
+
+            <div>
+                <img src="img/gmail.svg" width="20px">
+                <p><a href="mailto:contato@gmail.com">contato@gmail.com</a></p>
+            </div>
+
+            <div>
+                <img src="img/call.svg" width="20px">
+                <p><a href="tel:9999999999">(99) 9999-9999</a></p>
+            </div>
+
+
+        </section>
 
         <footer> <!--rodapé-->
             <p>Desenvolvido por Emily Piazza Lopes</p>
