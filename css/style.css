@@ -22,6 +22,12 @@ h2{
     font-weight: 700;
 }
 
-img{
+.img_padrao{
     margin-bottom: 20px;
+    width: 300px;
+}
+
+.logo{
+    margin-bottom: 20xp ;
+    width: 20px;
 }
